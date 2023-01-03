@@ -2846,7 +2846,7 @@ ul.icons li .icon:before {
 
 @media screen and (max-width: 736px) {
     ul.icons li {
-        padding: 0 2rem 0 0;
+        padding: 0 2rem 2rem 0;
     }
 
     ul.icons li .icon:before {
@@ -4128,4 +4128,12 @@ body.is-preload #banner .wrapper > .inner {
 #footer .copyright {
     color: rgba(102, 102, 102, 0.5);
     margin-bottom: 2rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.less-pad {
+    padding-top: 4rem;
 }
